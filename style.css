@@ -1,12 +1,41 @@
 body {
-	overflow-x: hidden; /*--right gutter fix--*/
+  overflow-y: scroll;
 }
 
+.nav-item{
+  padding: 0 2rem;
+}
 
+footer{
+  background-color: rgb(88, 10, 119);
+  color: #E9ECEF;
+}
 
+.home-inner{
+  background: url("img/landing.png");
+}
 
+.section2 a, .section3 .col-md-6{
+  padding: 0;
+}
 
+.section2 img, .section3 img{
+  width: 100%;
+  height: auto;
+}
 
+.caption{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  max-width: 100%;
+  color: #E9ECEF;
+  text-transform: uppercase;
+}
+
+.card{
+  margin: 2rem;
+}
 
 /*--- iOS Landing Page Fix --*/
 .landing {
@@ -38,3 +67,6 @@ body {
           transform: translateZ(0);
   will-change: transform;
 }
+
+
+
