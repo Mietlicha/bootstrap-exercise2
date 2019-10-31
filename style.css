@@ -67,6 +67,24 @@ footer{
           transform: translateZ(0);
   will-change: transform;
 }
+ /*----------------error-page-style------------------------*/
+ .main-article{
+position: relative;
+ }
 
+ .main-article img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+   }
 
+   .main-article h1{
+     position: absolute;
+     z-index: 10;
+     top: 30%;
+     width: 100%;
+     max-width: 100%;
+     text-align: center;
+     color: #E9ECEF;
+   }
 
