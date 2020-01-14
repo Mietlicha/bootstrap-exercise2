@@ -2,38 +2,47 @@ body {
   overflow-y: scroll;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 2rem;
 }
 
-footer{
-  background-color: rgb(88, 10, 119);
-  color: #E9ECEF;
+footer {
+  background-color: rgb(40, 39, 41);
+  color: #e9ecef;
 }
 
-.home-inner{
-  background: url("img/landing.png");
+.home-inner {
+  background: url('img/landing.png');
 }
 
-.section2 a, .section3 .col-md-6{
+.section2 a,
+.section3 .col-md-6 {
   padding: 0;
 }
 
-.section2 img, .section3 img{
-  width: 100%;
-  height: auto;
+.photo {
+  max-width: 900px;
+  max-height: 900px;
 }
 
-.caption{
+.section2 img,
+.section3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.caption {
   position: absolute;
   top: 40%;
   width: 100%;
   max-width: 100%;
-  color: #E9ECEF;
+  color: #e9ecef;
   text-transform: uppercase;
 }
 
-.card{
+.card {
   margin: 2rem;
 }
 
@@ -43,7 +52,7 @@ footer{
   width: 100%;
   height: 100vh;
   display: table;
-  background: #E9ECEF;
+  background: #e9ecef;
   z-index: -1;
 }
 .home-wrap {
@@ -64,27 +73,26 @@ footer{
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   will-change: transform;
 }
- /*----------------error-page-style------------------------*/
- .main-article{
-position: relative;
- }
+/*----------------error-page-style------------------------*/
+.main-article {
+  position: relative;
+}
 
- .main-article img{
+.main-article img {
   width: 100%;
   max-width: 100%;
   height: auto;
-   }
+}
 
-   .main-article h1{
-     position: absolute;
-     z-index: 10;
-     top: 30%;
-     width: 100%;
-     max-width: 100%;
-     text-align: center;
-     color: #E9ECEF;
-   }
-
+.main-article h1 {
+  position: absolute;
+  z-index: 10;
+  top: 30%;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  color: #e9ecef;
+}
